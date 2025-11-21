@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Database files (SQLite, if used)
+*.db
+*.sqlite3
+
+# Alembic
+alembic/versions/*.pyc
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / Distribution
+dist/
+build/
+*.egg-info/

@@ -11,7 +11,7 @@ templates = Jinja2Templates(directory="app/templates")
 
 @app.get("/", response_class=HTMLResponse)
 def home(request: Request):
-    return templates.TemplateResponse("register.html", {"request": request, "msg": "Welcome SAM OCHU!"})
+    return templates.TemplateResponse("register.html", {"request": request, "msg": "Welcome Dear User!"})
 
 
 @app.post("/register", response_class=HTMLResponse)
