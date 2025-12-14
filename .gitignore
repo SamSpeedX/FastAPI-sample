@@ -1,5 +1,5 @@
 # Python
-__pycache__/
+__pycache__
 *.py[cod]
 *.pyo
 *.pyd
@@ -7,8 +7,8 @@ __pycache__/
 *.pdb
 
 # Virtual environment
-venv/
-env/
+venv
+.env
 *.env
 
 # Database files (SQLite, if used)
