@@ -6,7 +6,7 @@ __pycache__
 *.pyc
 *.pdb
 
-# Virtual environment
+# Virtual environment 
 venv
 .env
 *.env
